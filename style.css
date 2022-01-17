@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap");
+
+:root {
+  --darkBlue: #262a53;
+  --lightBlue: #1925ac27;
+  --line: #a6f0c6;
+  --text: #f4eee8;
+  --bar: #125d98;
+}
+
+body {
+  background-color: var(--darkBlue);
+  color: var(--text);
+  font-family: Poppins, sans-serif;
+}
+
+.fa-html5 {
+  color: orange;
+}
+.fa-css3 {
+  color: blue;
+}
+
+.fa-js {
+  color: yellow;
+}
+
+.fa-node-js {
+  color: green;
+}
+
+.fa-react {
+  color: aqua;
+}
+
+.fa-php {
+  color: rebeccapurple;
+}
+.fa-laravel {
+  color: red;
+}
+.navbar {
+  background-color: var(--darkBlue);
+  border-bottom: 1px solid var(--line);
+}
+.navbar a {
+  color: var(--text);
+}
+
+#about {
+  background-color: var(--lightBlue);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.skills span {
+  font-size: 18px;
+}
+.progress {
+  height: 20px;
+}
+.progress-bar {
+  background-color: var(--bar);
+}
+
+.service {
+  border: 1px solid var(--line);
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+#contact {
+  background-color: var(--lightBlue);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.btn-submit {
+  background-color: var(--bar);
+  color: var(--text);
+}
+
+@media (min-width: 576px) {
+  .skills {
+    border: 1px solid var(--line);
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+}
